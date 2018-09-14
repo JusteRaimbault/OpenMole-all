@@ -1,0 +1,12 @@
+[submodule "openmole"]
+	path = openmole
+	url = git@github.com:openmole/openmole.git
+[submodule "gridscale"]
+	path = gridscale
+	url = git@github.com:openmole/gridscale.git
+[submodule "myopenmoleplugin"]
+	path = myopenmoleplugin
+	url = https://github.com/openmole/myopenmoleplugin.git
+[submodule "zombies"]
+	path = zombies
+	url = ssh://git@gitlab.iscpif.fr:20022/openmole/zombies.git
