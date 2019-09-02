@@ -1,0 +1,10 @@
+
+System libraries (apt update; apt install -y $1)
+
+openssl-dev
+libcurl4-openssl-dev
+
+
+R packages (with deps)
+sf
+
