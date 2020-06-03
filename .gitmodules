@@ -19,3 +19,9 @@
 [submodule "zombies_nl"]
 	path = zombies_nl
 	url = ssh://git@gitlab.iscpif.fr:20022/openmole/zombies.git
+[submodule "openmole-market"]
+	path = openmole-market
+	url = git@github.com:openmole/openmole-market.git
+[submodule "openmole-com"]
+	path = openmole-com
+	url = git@github.com:openmole/openmole-com.git
