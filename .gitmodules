@@ -8,7 +8,7 @@
 	path = myopenmoleplugin
 	url = git@github.com:openmole/myopenmoleplugin.git
 [submodule "zombies"]
-	path = zombies
+	path = exmodelo-model
 	url = git@github.com:openmole/exmodelo-model.git
 [submodule "container"]
 	path = container
