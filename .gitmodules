@@ -6,19 +6,19 @@
 	url = git@github.com:openmole/gridscale.git
 [submodule "myopenmoleplugin"]
 	path = myopenmoleplugin
-	url = https://github.com/openmole/myopenmoleplugin.git
+	url = git@github.com:openmole/myopenmoleplugin.git
 [submodule "zombies"]
 	path = zombies
 	url = git@github.com:openmole/exmodelo-model.git
 [submodule "container"]
 	path = container
-	url = ssh://git@gitlab.openmole.org:20022/openmole/container.git
+	url = git@github.com:openmole/container.git
 [submodule "courses"]
-	path = courses
+	path = exmodelo-courses
 	url = git@github.com:openmole/exmodelo-courses.git
 [submodule "zombies_nl"]
 	path = zombies_nl
-	url = ssh://git@gitlab.iscpif.fr:20022/openmole/zombies.git
+	url = git@github.com:JusteRaimbault/zombies_nl.git
 [submodule "openmole-market"]
 	path = openmole-market
 	url = git@github.com:openmole/openmole-market.git
