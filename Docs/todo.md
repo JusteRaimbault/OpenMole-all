@@ -6,6 +6,12 @@ Issues
 (todo/to raise?)
 
 
+(potential issues 13/07)
+ - container locale => not really issues, set correct locale utf8 - en
+ - docker recipes => not sure which one used for deployment, check
+ - doc npm => ? (install?)
+ - gui refresh rm dir => retest when new gui
+
 ====
 Bilan Coding Camp 2022
 
