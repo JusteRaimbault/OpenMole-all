@@ -25,3 +25,6 @@
 [submodule "openmole-com"]
 	path = openmole-com
 	url = git@github.com:openmole/openmole-com.git
+[submodule "dbsource-plugin"]
+	path = dbsource-plugin
+	url = git@github.com:openmole/dbsource-plugin.git
