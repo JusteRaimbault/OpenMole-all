@@ -28,3 +28,6 @@
 [submodule "dbsource-plugin"]
 	path = dbsource-plugin
 	url = git@github.com:openmole/dbsource-plugin.git
+[submodule "ex-modelo"]
+	path = ex-modelo
+	url = https://gitlab.openmole.org/exmodelo/ex-modelo.git
