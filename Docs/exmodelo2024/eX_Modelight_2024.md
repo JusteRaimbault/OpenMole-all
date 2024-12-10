@@ -25,6 +25,10 @@ group 3/4 : JR
 group 5/6 :
 group 7/8 :
 
+## TPs
+
+Dossier pour uploader et partager les TPs en tgz :
+https://nextcloud.openmole.org/apps/files/files/15547?dir=/exmodelo-2024
 
 ## Demie journée 1.1 : Romain 
 
@@ -81,7 +85,7 @@ les supports de GUI OM (guided tour of the interface) sont à rafraîchir
 En groupe: 
 
 - [name=CdB] pour Python
-- [name=JR] pour R  ([TP de Paul l'année dernière](https://gitlab.openmole.org/exmodelo/courses/-/tree/master/Practical_session_R_model_inOM?ref_type=heads) ; si le temps recoder le tp python ML pour faire en commun)
+- [name=JR] pour R  ([TP de Paul l'année dernière](https://gitlab.openmole.org/exmodelo/courses/-/tree/master/Practical_session_R_model_inOM?ref_type=heads)) -> r-logisticregression in market (joint avec python)
 - [name=ML] pour NetLogo
 - [name=PC] pour GAMA 
 - [name=MC] [Julia](https://hackmd.openmole.org/ui1gNooaRfWEgG3avBtUVw?both) 
@@ -156,23 +160,29 @@ Un jupyter et/ou des scripts + face validity sur demo modèle zombie
 ## Demi journée 2.2 : TP autonomie + Panorama des méthodes
 
 - **Part I: 2/3 = 2h** [name=JR]
-    - Calibrer sur des courbes de consomation de food préparées par simulation
-    - Recherche de localisation de tas de nouriture
-    - 30 minutes de debrief collectif, discussion des résultats
 
-Goal : model the question into an optimization problem , use NSGA2 to answer it
 
-The model has been developped (in Scala):
-[Link to the source](https://github.com/openmole/ants-scala)
-[Link to the archive]() TODO
+Goal : model the question into an optimization problem , use NSGA2 to answer it. On a new model (ants), developped in scala ([Link to the source](https://github.com/openmole/ants-scala)), each group formulates its own questions and proposes a method to answer it.
+
+For better understanding the model, they can explore the NetLogoWeb version [here](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo).
+
+Examples of questions :
+    - Calibrate on food consumption values (files on demand)
+    - Inverse problem on the location of food sources
+    - optimise the performance of ants to eat as fast as possible
+    - balance between food sources
+    
+Provided to the students: [archive](https://nextcloud.openmole.org/s/Nnfn5zSxHcW4FYQ/download) with the model plugin and a basic script to run the model
+
+
+
+- **Part II: 1/3 = 1h** [name=ML]
+Ouverture sur panorama complet des méthodes d'OM. Saltelli, Morris , PSE (à détailler plus ) & OSE
 
 :::info
 **Guided tour of OpenMOLE Methods**
 Get an overview of advanced OpenMOLE methods to evaluate your model
 :::
-
-- **Part II: 1/3 = 1h** [name=ML]
-Ouverture sur panorama complet des méthodes d'OM. Saltelli, Morris , PSE (à détailler plus ) & OSE
 
 $\rightarrow$ use the new spiral synoptic method representation
 
@@ -196,7 +206,7 @@ Slides :
 - [x] Anne-Laure ISC [name=RR]
 - [x] Réseau Gama - envoyé à Partrick pour relais [name=RR]
 - [x] geotamtam [name=JR]
-- [x] quanti [name=ML]
+- [ ] quanti [name=ML]
 - [x] EuroTQG [name=JR]
 - [x] IGU Urban [name=JR]
 - [ ] LVMT - Florent [name=JR]

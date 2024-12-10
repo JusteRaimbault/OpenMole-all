@@ -31,3 +31,6 @@
 [submodule "ex-modelo"]
 	path = ex-modelo
 	url = https://gitlab.openmole.org/exmodelo/ex-modelo.git
+[submodule "ants-scala"]
+	path = ants-scala
+	url = git@github.com:openmole/ants-scala.git
