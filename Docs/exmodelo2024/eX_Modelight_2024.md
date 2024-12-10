@@ -157,26 +157,10 @@ Un jupyter et/ou des scripts + face validity sur demo modèle zombie
 **Objectif partiel de fin de demi-journée 3** : «J'ai fait le lien entre résolution de problème et optimisation de quelque chose. Je sais qu'OM sait faire de l'optimisation  avec NSGA2»
 
 
-## Demi journée 2.2 : TP autonomie + Panorama des méthodes
-
-- **Part I: 2/3 = 2h** [name=JR]
+## Demi journée 2.2 : Panorama des méthodes puis TP en autonomie sur un nouveau modèle
 
 
-Goal : model the question into an optimization problem , use NSGA2 to answer it. On a new model (ants), developped in scala ([Link to the source](https://github.com/openmole/ants-scala)), each group formulates its own questions and proposes a method to answer it.
-
-For better understanding the model, they can explore the NetLogoWeb version [here](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo).
-
-Examples of questions :
-    - Calibrate on food consumption values (files on demand)
-    - Inverse problem on the location of food sources
-    - optimise the performance of ants to eat as fast as possible
-    - balance between food sources
-    
-Provided to the students: [archive](https://nextcloud.openmole.org/s/Nnfn5zSxHcW4FYQ/download) with the model plugin and a basic script to run the model
-
-
-
-- **Part II: 1/3 = 1h** [name=ML]
+- **Part I: 1/3 = 1h** [name=ML]
 Ouverture sur panorama complet des méthodes d'OM. Saltelli, Morris , PSE (à détailler plus ) & OSE
 
 :::info
@@ -191,6 +175,27 @@ Slides :
 [Saltelli and Morris excerpts from JR](https://raw.githubusercontent.com/openmole/exmodelo-courses/master/sensitivity/sensitivity.pdf)
 [resources from romain](https://hackmd.openmole.org/p/mIwn79YMS#/53)
 
+
+
+
+- **Part II: 2/3 = 2h** [name=JR]
+
+
+**Goal:** model the question into an optimization problem , use NSGA2 to answer it. On a new model (ants), developped in scala ([Link to the source](https://github.com/openmole/ants-scala)), each group formulates its own questions and proposes a method to answer it. For a better understanding of the model, they can explore the NetLogoWeb version [here](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Biology/Ants.nlogo).
+
+**Examples of questions:**
+    - Calibrate on food consumption values (files on demand)
+    - Inverse problem on the location of food sources
+    - optimise the performance of ants to eat as fast as possible
+    - balance between food sources
+    - given a fixed amount of food, what repartition across different sources? (varying number, size and position)
+    - optimise the chemical perception parameters (ants saturation for example), how does this interacts with the "optimum" for evaporation/diffusion?
+    
+**Provided to the students:** [archive](https://nextcloud.openmole.org/s/Nnfn5zSxHcW4FYQ/download) with the model plugin and a basic script to run the model
+
+
+
+
 ## Demi-journée 3.1 & 3.2 : OpenMOLE on your own model
 
 
@@ -200,7 +205,7 @@ Slides :
 
 
 ### Destinataire
-- [x] ISC-PIF [name=ML]
+- [ ] ISC-PIF [name=ML]
 - [x] Géocitées [name=RR]
 - [x] Payotes via Myriam [name=RR]
 - [x] Anne-Laure ISC [name=RR]
@@ -209,7 +214,7 @@ Slides :
 - [ ] quanti [name=ML]
 - [x] EuroTQG [name=JR]
 - [x] IGU Urban [name=JR]
-- [ ] LVMT - Florent [name=JR]
+- [x] LVMT - Florent [name=JR]
 - [ ] CASA, UCL, Londres [name=JR]
 - [x] IDM4SCO (https://sympa.inria.fr/sympa) [name=RR]
 - [x] Devlog [name=RR]
